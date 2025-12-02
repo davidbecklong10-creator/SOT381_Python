@@ -1,0 +1,8 @@
+#Kiểm tra số nguyên
+so = int(input("Nhập vào một số bất kì: "))
+if so > 0:
+    print("Số dương")
+elif so < 0:
+    print("Số âm")
+else:
+    print("Số 0")
