@@ -1,0 +1,14 @@
+#tính điểm trung bình
+cac_diem = [9.5,6.0,8.1,9.0]
+tong_diem = 0
+so_mon= 0
+
+print("Quá trính tính điểm")
+for diem in cac_diem:
+    tong_diem += diem
+    so_mon += 1
+    print(f"Môn {so_mon}: {diem}")
+
+#Điểm trung bình
+diem_trung_binh = tong_diem / so_mon
+print(f"Điểm trung bình là: {diem_trung_binh:.2f}")
