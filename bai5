@@ -1,0 +1,10 @@
+#giá vé xe buýt
+khach_hang = input("Bạn thuộc nhóm khách hàng nào: ")
+if "học sinh" in khach_hang:
+    print("Giá vé của bạn là 3.000đ")
+elif "sinh viên" in khach_hang:
+    print("Giá vé của bạn là 5.000đ")
+elif "người cao tuổi" or "người già" in khach_hang:
+    print("Miễn phí")
+elif "người thường" in khach_hang:
+    print("Giá vé của bạn là 7.000đ")
