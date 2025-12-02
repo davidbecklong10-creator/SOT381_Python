@@ -1,0 +1,6 @@
+#kiểm tra chẵn lẽ
+so = int(input("Nhập một số bất kì: "))
+if so%2 == 0:
+    print("số chẵn")
+else:
+    print("số lẻ")
