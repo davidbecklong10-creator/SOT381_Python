@@ -1,0 +1,6 @@
+#Độ dài mật khẩu
+mat_khau = input("Nhập mật khẩu của bạn: ")
+if len(mat_khau) >= 8:
+    print("Tạo mật khẩu thành công")
+else:
+    print("Mật khẩu phải đủ 8 kí tự")
