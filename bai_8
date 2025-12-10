@@ -1,0 +1,21 @@
+#menu tương tác
+while True:
+    print("\n====menu====")
+    print("1. Xem chào")
+    print("2, Đoán từ")
+    print("0. Thoát")
+
+    lua_chon = int(input("Nhập lựa chọn của bạn: "))
+    if lua_chon == 0:
+        print("Tạm biệt")
+        break
+    elif lua_chon == 1:
+        print("Xin chào")
+    elif lua_chon == 2:
+        secret_word = "python"
+        hint = "Gợi ý: Đây là ngôn ngữ lập trình"
+        guess = ""
+        while guess != secret_word:
+              guess = input("Bạn đoán là từ gì? ")
+    else:
+         print("Lựa chọn không hợp lệ")
